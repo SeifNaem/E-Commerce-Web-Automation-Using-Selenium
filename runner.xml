@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Test Suite">
+    <test name="Automation Run">
+        <classes>
+            <!-- Specify your fully qualified class name here -->
+            <class name="tests.LoginTest" />
+            <class name="tests.HomeTest" />
+            <class name="tests.OverviewTest" />
+            <class name="tests.CheckoutTest" />
+            <class name="tests.CompleteTest" />
+            <class name="tests.E2E" />
+
+        </classes>
+    </test>
+</suite>
